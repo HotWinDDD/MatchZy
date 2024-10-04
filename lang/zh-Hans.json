@@ -1,7 +1,7 @@
 {
     "matchzy.ready.markedready": "您已被标记为准备完成。",
     "matchzy.ready.markedunready": "您已经被标记为未准备。",
-    "matchzy.ready.readytotestorebackupinfomessage": "Unready players: {0}. Please type .ready when you are ready to restore the match backup. {1}",
+    "matchzy.ready.readytotestorebackupinfomessage": "玩家 {0} 暂未准备。 如果你已准备好了，请输入 .ready 以完成准备 {1}",
 
     "matchzy.knife.sidedecisionpending": "{green}{0}{default} 赢下了刀局。等待他们输入 {green}.stay{default} 或者 {green}.switch{default}。",
     "matchzy.knife.decidedtostay": "{green}{0}{default} 决定保留阵营。",
@@ -22,9 +22,9 @@
     "matchzy.pause.tacticaltimeout": "你不能在战术暂停期间使用此命令.",
                                                             
     "matchzy.restore.teamwantstorestore": "{green}{0}{default} 想要回溯游戏至本回合开始时。 {green}{1}{default}, 请输入 !stop 来确定。",
-    "matchzy.restore.loadedsuccessfully": "Backup file loaded successfully: {0}",
+    "matchzy.restore.loadedsuccessfully": "备份文件已成功加载: {0}",
     "matchzy.restore.restoredsuccessfully": "成功恢复备份文件: {0}",
-    "matchzy.restore.stopcommandrequiresnodamage": "A request to restart the round cannot be given once a player has damaged any opposing player.",
+    "matchzy.restore.stopcommandrequiresnodamage": "有玩家对其他任何玩家造成伤害，当前不能提出重新开始回合的请求。",
 
     "matchzy.backup.stopduringhalftime": "你不能在半场期间使用此命令.",
     "matchzy.backup.stopmatchended": "你不能在比赛结束后使用此命令.",
@@ -41,9 +41,9 @@
     "matchzy.cc.disabled": "{red}已关闭{default}",
     "matchzy.cc.usage": "使用示例: {0}",
     "matchzy.cc.invalidmap": "不合法的地图名称!",
-    "matchzy.cc.globalnades": "Saving/Loading Lineups Globally is now {0}!",
-    "matchzy.cc.wl": "Whitelist is now {0}!",
-    "matchzy.cc.playout": "Playout is now {0}!",
+    "matchzy.cc.globalnades": "当前正在加载/保存 Lineups Globally {0}!",
+    "matchzy.cc.wl": "白名单 {0}!",
+    "matchzy.cc.playout": "当前正在进行 {0}!",
     "matchzy.cc.rcon": "命令发送成功!",
     "matchzy.cc.exitprac": "MatchZy 比赛模式已就绪!",
     "matchzy.cc.match": "MatchZy 比赛模式已就绪!",
@@ -58,7 +58,7 @@
     "matchzy.cc.minreadyplayersperteam": "每支队伍所需的最少已准备玩家数: {green}{0}{default}",
     "matchzy.cc.minreadyspecs": "每支队伍所需的最少已准备观察者数: {green}{0}{default}",
     "matchzy.cc.minreadyplayers": "比赛所需的最少已准备玩家数: {green}{0}{default}",
-    "matchzy.cc.playoutstatus": "Playout: {green}{0}{default}",
+    "matchzy.cc.playoutstatus": "游玩: {green}{0}{default}",
     "matchzy.cc.minreadyrequired": "当前配置下需要的最少准备玩家数: {0}. 使用示例: !readyrequired <number_of_ready_players_required>",
     "matchzy.cc.roundknife": "拼刀局 {0}!",
     "matchzy.cc.skipvetomatchstarted": "跳过Ban/Pick 无法在比赛已开始的情况下使用!",
